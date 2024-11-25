@@ -1,0 +1,23 @@
+{
+  "name": "tea-manager",
+  "version": "1.0.0",
+  "description": "test express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "abi",
+  "license": "ISC",
+  "dependencies": {
+    "@csllc/cs-canbus-universal": "^0.2.2",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
